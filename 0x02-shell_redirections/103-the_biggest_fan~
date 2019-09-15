@@ -1,0 +1,3 @@
+#!/bin/bash
+head nasa_19950801.tsv
+
