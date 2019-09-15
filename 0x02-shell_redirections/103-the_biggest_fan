@@ -1,5 +1,5 @@
 #!/bin/bash
-head -n 11 *.tsv | sort -n -t: -k 3,3
+cat *.tsv | awk '{print $1}' | sort -n | uniq -c | sort -nr | head -20
 
 
 
