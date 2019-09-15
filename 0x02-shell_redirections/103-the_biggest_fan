@@ -1,2 +1,9 @@
 #!/bin/bash
-head nasa_19950801.tsv
+head -n 11 *.tsv
+
+
+
+
+     
+
+
