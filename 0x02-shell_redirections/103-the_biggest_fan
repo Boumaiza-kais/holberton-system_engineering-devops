@@ -1,10 +1,2 @@
 #!/bin/bash
-cat *.tsv | awk '{print $1}' | sort -n | uniq -c | sort -nr | head -20
-
-
-
-
-
-     
-
-
+head nasa_19950801.tsv
