@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 echo PATH=$PATH/action
+=======
+PATH=$PATH:/action
+>>>>>>> 6ff7a64dfabd068bb6b0661a67fdc16faf0c7d7c
