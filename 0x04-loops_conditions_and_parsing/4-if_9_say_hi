@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# write "Holberton School" 10 times, but "hi" in the 9th lit
+n=1
+while [ $n -le 10 ]
+do
+    echo "Holberton School"
+    if [ $n -eq 9 ]
+    then
+	echo "Hi"
+    fi
+    ((n++))
+done
