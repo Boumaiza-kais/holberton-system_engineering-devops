@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# conf nginx to list in  port80
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service nginx restart
+
